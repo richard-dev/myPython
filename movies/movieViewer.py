@@ -17,7 +17,8 @@ AVATAR = movies.Movie("Avatar",
 # AVATAR.showTrailer()
 SCHOOLOFROCK = movies.Movie("School of Rock",
                             "Using rock music to learn.",
-                            "https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
+                            "https://upload.wikimedia.org/wikipedia/" +
+                            "en/1/11/School_of_Rock_Poster.jpg",
                             "https://www.youtube.com/watch?v=XCwy6lW5Ixc")
 
 RATATOUILLE = movies.Movie("Ratatouille",
@@ -27,8 +28,9 @@ RATATOUILLE = movies.Movie("Ratatouille",
 
 MIDNIGHTINPARIS = movies.Movie("Midnight in Paris",
                                "Going back in time to meet authors.",
-                               "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
-                               "https://www.youtube.com/watch?v=FAfR8omt-CY")   
+                               "https://upload.wikimedia.org/wikipedia/" +
+                               "en/9/9f/Midnight_in_Paris_Poster.jpg",
+                               "https://www.youtube.com/watch?v=FAfR8omt-CY")
 
 HUNGERGAMES = movies.Movie("Hunger Games",
                            "A really real reality show.",
